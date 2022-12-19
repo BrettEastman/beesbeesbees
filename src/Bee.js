@@ -7,6 +7,6 @@ var Bee = function(age, color, food) {
 
 Bee.prototype = Object.create(Grub.prototype);
 Bee.prototype.constructor = Bee;
-Bee.prototype.eat = function(newFood) {
-  this.food = newFood;
-};
+// Bee.prototype.eat = function(newFood) {
+//   this.food = newFood;
+// };
